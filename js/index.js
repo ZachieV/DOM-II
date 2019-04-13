@@ -32,10 +32,10 @@ function wheelFunction() {
   this.style.width = '200px';
 }
 
-document.querySelector("a").onfocus = function() {
+document.querySelector(".nav-link").onfocus = function() {
   myFunction()
 };
 
 function myFunction() {
-  document.querySelector("a").style.color = "red";
+  document.querySelector(".nav-link").style.color = "red";
 }
